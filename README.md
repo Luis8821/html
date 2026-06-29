@@ -163,4 +163,86 @@
 
 </body>
 
+
+.incio {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    background-color: rgb(205, 227, 237);
+    border-radius: 20px;
+    padding: 20px 100px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+}
+
+h1 {
+    font-size: 85px;
+    color: lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero {
+    background-image: url("moto.gif");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ÁREA DOS CARDS */
+.pai {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 20px;
+}
+
+/* CARD PADRÃO */
+.card-moto {
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    transition: 0.3s;
+}
+
+.card-moto:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.bnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 50px;
+
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+
+    margin: 20px auto;
+}
+
 </html>
